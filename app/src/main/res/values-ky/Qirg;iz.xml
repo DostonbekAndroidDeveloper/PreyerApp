@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Намаз Қосымшасы</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Салам бош фрагмент</string>
+    <string name="islom_news">Ислам жаңалықтары</string>
+    <string name="qibla">Кыбла</string>
+    <string name="nomoz_vaqtlari">Намаз уақыттары</string>
+
+    <string name="suggestion">Мемлекет немесе қала атын киргүзүңүз</string>
+    <string name="happines">Муваффақиятты тамамталды</string>
+
+    <string name="qiblani_aniqlash">Кыбыланы аныктоо</string>
+
+    <string name="_0">0</string>
+    <string name="jami">Жамаат:</string>
+    <string name="d">/</string>
+    <string name="_33">33</string>
+    <string name="_00">0°</string>
+    <string name="location">Орнотуу</string>
+
+    <string name="todo">Иштер</string>
+    <string name="subuh">Субһ</string>
+    <string name="time">уақыт</string>
+    <string name="dzuhur">Джухур</string>
+    <string name="xufton">Хуфтон</string>
+    <string name="shom">Шом</string>
+    <string name="asr">Аср</string>
+    <string name="peshin">Пешин</string>
+    <string name="bomdod">Бомдод</string>
+    <string name="prayer_app">Намаз Қосымшасы</string>
+    <string name="tasbeh">Тасбих</string>
+
+</resources>

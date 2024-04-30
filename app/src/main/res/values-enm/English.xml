@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Prayer App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="islom_news">Islamic News</string>
+    <string name="qibla">Qibla</string>
+    <string name="nomoz_vaqtlari">Prayer Times</string>
+    <string name="suggestion">Please enter the name of country or city</string>
+    <string name="happines">It is finished successfully</string>
+
+    <string name="qiblani_aniqlash">Analyse Qibla</string>
+
+
+    <string name="_0">0</string>
+    <string name="jami">Total:</string>
+    <string name="d">/</string>
+    <string name="_33">33</string>
+    <string name="_00">0°</string>
+    <string name="location">Location</string>
+
+    <string name="todo">TODO</string>
+    <string name="subuh">Subuh</string>
+    <string name="time">Time</string>
+    <string name="dzuhur">Dzuhur</string>
+    <string name="xufton">Xufton</string>
+    <string name="shom">Maghrib</string>
+    <string name="asr">Asr</string>
+    <string name="peshin">Peshin</string>
+    <string name="bomdod">Fajr</string>
+    <string name="prayer_app">Prayer App</string>
+    <string name="tasbeh">Tasbeh</string>
+
+</resources>

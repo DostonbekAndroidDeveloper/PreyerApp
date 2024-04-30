@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Preyer App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="islom_news">الأخبار الإسلامية</string>
+    <string name="qibla">القبلة</string>
+    <string name="nomoz_vaqtlari">أوقات الصلاة</string>
+    <string name="suggestion">Davlat yoki shahar nomini kiriting</string>
+    <string name="happines">Muofaqqiyatli tugatildi</string>
+
+    <string name="qiblani_aniqlash">تحديد القبلة</string>
+
+
+    <string name="_0">0</string>
+    <string name="jami">المجموع:</string>
+    <string name="d">/</string>
+    <string name="_33">33</string>
+    <string name="_00">0°</string>
+    <string name="location">موقع</string>
+
+    <string name="todo">TODO</string>
+    <string name="subuh">فَجر</string>
+    <string name="time">وقت</string>
+    <string name="dzuhur">الظهر</string>
+    <string name="xufton">ليلة</string>
+    <string name="shom">مساء</string>
+    <string name="asr">قرن</string>
+    <string name="peshin">وقت الظهيرة</string>
+    <string name="bomdod">صباح</string>
+    <string name="prayer_app">تطبيق الصلاة</string>
+    <string name="tasbeh">مسبحة</string>
+
+</resources>

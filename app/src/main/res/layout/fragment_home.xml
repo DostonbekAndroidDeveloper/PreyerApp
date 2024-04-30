@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/asa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+android:scaleType="centerCrop"
+       android:src="@drawable/mpp"
+        tools:ignore="ContentDescription" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tool"
+        android:backgroundTint="@color/mainColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prayer_app"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="10dp"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_language_24"
+            android:layout_gravity="center|end"
+            android:gravity="center"
+            android:id="@+id/language_button"
+            android:background="@color/mainColor"
+
+            android:layout_marginEnd="10dp"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tool"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/news"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#1DDC27"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintRight_toLeftOf="@id/compass_qibla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|top"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/news"
+
+
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:paddingBottom="5dp"
+            android:text="@string/islom_news"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/time"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tasbeh"
+        app:layout_constraintBottom_toTopOf="@id/news">
+
+
+        <ImageView
+
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center|top"
+            android:paddingTop="5dp"
+            android:src="@drawable/nt"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+
+
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:paddingBottom="5dp"
+            android:text="@string/nomoz_vaqtlari"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/compass_qibla"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#03A9F4"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toRightOf="@id/news"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|top"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/qibla"
+
+
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:paddingBottom="5dp"
+            android:text="@string/qibla"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tasbeh"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#1DDC27"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toRightOf="@id/time"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/compass_qibla">
+
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|top"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/beads"
+
+
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:paddingBottom="5dp"
+            android:text="@string/tasbeh"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

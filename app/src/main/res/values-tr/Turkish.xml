@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Namaz Uygulaması</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="islom_news">İslam Haberleri</string>
+    <string name="qibla">Kıble</string>
+    <string name="nomoz_vaqtlari">Namaz Vakitleri</string>
+    <string name="suggestion">Devlet veya şehir adını girin</string>
+    <string name="happines">Başarılı bir şekilde tamamlandı</string>
+
+    <string name="qiblani_aniqlash">Kıbleyi Belirleme</string>
+
+
+    <string name="_0">0</string>
+    <string name="jami">Toplam:</string>
+    <string name="d">/</string>
+    <string name="_33">33</string>
+    <string name="_00">0°</string>
+    <string name="location">Konum</string>
+
+    <string name="todo">YAPILACAKLAR</string>
+    <string name="subuh">Şafak</string>
+    <string name="time">Zaman</string>
+    <string name="dzuhur">Öğle</string>
+    <string name="xufton">Gece</string>
+    <string name="shom">Akşam</string>
+    <string name="asr">İkindi</string>
+    <string name="peshin">Öğle Vakti</string>
+    <string name="bomdod">Sabah</string>
+    <string name="prayer_app">Namaz Uygulaması</string>
+    <string name="tasbeh">Tespih</string>
+
+</resources>

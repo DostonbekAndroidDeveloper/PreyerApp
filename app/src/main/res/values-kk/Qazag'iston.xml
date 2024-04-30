@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Namaz Oyyny</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Syrty olpatu fragmenti</string>
+    <string name="islom_news">Islom zhanyndaghy jaqsy khabarlar</string>
+    <string name="qibla">Qibla</string>
+    <string name="nomoz_vaqtlari">Namaz wagtalary</string>
+
+    <string name="suggestion">Мемлекет немесе қала атын енгізіңіз</string>
+    <string name="happines">Сәтті аяқталды</string>
+
+    <string name="qiblani_aniqlash">Қыбланы анықтау</string>
+
+
+    <string name="_0">0</string>
+    <string name="jami">Jumys:</string>
+    <string name="d">/</string>
+    <string name="_33">33</string>
+    <string name="_00">0°</string>
+    <string name="location">Oraqsha</string>
+
+    <string name="todo">İşter</string>
+    <string name="subuh">Subuh</string>
+    <string name="time">wagt</string>
+    <string name="dzuhur">Zuhr</string>
+    <string name="xufton">Aşar</string>
+    <string name="shom">Shom</string>
+    <string name="asr">Asr</string>
+    <string name="peshin">Peshin</string>
+    <string name="bomdod">Bomdod</string>
+    <string name="prayer_app">Namaz Oyyny</string>
+    <string name="tasbeh">Tasbeh</string>
+
+</resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tool"
+        android:background="@color/mainColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tasbeh"
+            android:layout_marginStart="10dp"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="@id/tool"
+            app:layout_constraintLeft_toLeftOf="@id/tool"
+            app:layout_constraintBottom_toBottomOf="@id/tool"/>
+        <TableLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/choice_layout"
+            android:clickable="true"
+
+            android:background="@drawable/btnchl"
+            app:layout_constraintTop_toTopOf="@id/tool"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/tool"
+            android:layout_margin="15dp"    >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/choice"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="3dp"  />
+        </TableLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/remove"
+            app:layout_constraintTop_toTopOf="@id/choice_layout"
+            app:layout_constraintBottom_toBottomOf="@id/choice_layout"
+            app:layout_constraintRight_toLeftOf="@id/choice_layout"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:background="@drawable/btnchl"
+            android:padding="3dp"
+            android:src="@drawable/rotation"
+            android:importantForAccessibility="no" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@id/tool"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="#02B50B"
+        android:id="@+id/back"/>
+
+    <TableLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:layout_constraintTop_toTopOf="@id/mainButton"
+        app:layout_constraintBottom_toBottomOf="@id/mainButton"
+        app:layout_constraintRight_toRightOf="@id/mainButton"
+        app:layout_constraintLeft_toLeftOf="@id/mainButton"
+        android:background="@drawable/btn"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TableLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/mainButton"
+        android:background="@drawable/btn"
+        android:backgroundTint="#314DFD"
+app:layout_constraintTop_toBottomOf="@id/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="52sp"
+        android:textColor="@color/black"
+        android:hint="@string/_0"
+        android:textColorHint="@color/black"
+        android:id="@+id/text_count"
+        app:layout_constraintTop_toTopOf="@id/mainButton"
+        app:layout_constraintBottom_toBottomOf="@id/mainButton"
+        app:layout_constraintLeft_toLeftOf="@id/mainButton"
+        app:layout_constraintRight_toRightOf="@id/mainButton" />
+
+    <TextView
+        android:id="@+id/all_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/_0"
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/black"
+        android:textSize="22sp"
+        android:layout_marginLeft="3dp"
+        app:layout_constraintTop_toBottomOf="@id/image_a"
+        app:layout_constraintBottom_toBottomOf="@id/viewCount"
+        app:layout_constraintLeft_toRightOf="@id/aa" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jami"
+        android:id="@+id/aa"
+        android:textSize="24sp"
+        android:textColor="#051F60"
+        app:layout_constraintLeft_toLeftOf="@id/image_a"
+        app:layout_constraintBottom_toBottomOf="@id/all_number"
+        android:layout_marginStart="14dp"/>
+    <TableLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toTopOf="@id/back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/back"
+        android:background="@drawable/btn"
+        android:id="@+id/viewCount"
+        android:layout_margin="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:id="@+id/view_number"
+
+        app:layout_constraintTop_toTopOf="@id/viewCount"
+        app:layout_constraintBottom_toBottomOf="@id/viewCount"
+        app:layout_constraintRight_toLeftOf="@id/divide"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:hint="@string/_0"
+        android:layout_marginEnd="2dp"
+        android:textColorHint="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/d"
+        android:id="@+id/divide"
+        app:layout_constraintTop_toTopOf="@id/viewCount"
+        app:layout_constraintBottom_toBottomOf="@id/viewCount"
+        app:layout_constraintRight_toRightOf="@id/viewCount"
+        app:layout_constraintLeft_toLeftOf="@id/viewCount"
+        android:textSize="32sp"
+
+        android:textColorHint="@color/black"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/viewCount"
+        app:layout_constraintBottom_toBottomOf="@id/viewCount"
+        app:layout_constraintLeft_toRightOf="@id/divide"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:id="@+id/tt"
+        android:layout_marginStart="2dp"
+        android:text="@string/_33"   />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/image_a"
+        android:src="@drawable/tasbeh_a"
+        app:layout_constraintTop_toTopOf="@id/viewCount"
+        app:layout_constraintLeft_toRightOf="@id/viewCount"
+        app:layout_constraintRight_toRightOf="parent"  />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
